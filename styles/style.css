@@ -1,0 +1,46 @@
+body {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #000000;
+    /**/
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Chrome/Safari/Opera */
+    -khtml-user-select: none; /* Konqueror */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none;
+}
+
+canvas {
+    display: block;
+    padding: 0;
+    margin: 0;
+    border: none;
+    cursor: none;
+    background: center / contain no-repeat url(../src/backgrounds/bg-space.jpg);
+}
+
+#startButton {
+    position: absolute;
+    width: 160px;
+    height: 40px;
+    border: solid 2px #00ff00;
+    border-radius: 20px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 24px;
+    color: #00ff00;
+    background-color: #000000;
+    transition: color .3s;
+}
+#startButton:hover {
+    color: #ffffff;
+}
